@@ -1,14 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>About</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
         excepturi aperiam aliquid neque quae numquam animi provident iure
@@ -20,9 +13,8 @@ export default function Home() {
         excepturi cumque ipsam, inventore laboriosam deserunt dolor repellat
         similique.
       </p>
-      <Link href='/bloggers'>
-        <a>See Blogger Listing</a>
-      </Link>
     </div>
   )
 }
+
+export default About
